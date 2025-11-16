@@ -98,7 +98,7 @@ streamlit run app.py
 # Repository Structure
 project_tsa/
 │
-├──# data/
+├──data/
 │   ├── AAL_news.csv
 │   ├── AAL_news_clean.csv
 │   ├── AAL_news_sentiment.csv
@@ -106,7 +106,7 @@ project_tsa/
 │   ├── AAL_merged.csv
 │   └── AAL_forecast.csv
 │
-├──# scripts/
+├──scripts/
 │   ├── step_clean_news.py
 │   ├── step_sentiment_vader.py
 │   ├── step_merge.py
@@ -115,14 +115,14 @@ project_tsa/
 │   ├── export_for_powerbi.py
 │   └── show_stock_columns.py
 │
-├──# models/
+├──models/
 │   └── arimax_model.pkl
 │
-├──# streamlit_app/
+├──streamlit_app/
 │   ├── app.py
 │   └── utils.py
 │
-└──# powerbi/
+└──powerbi/
     ├── AAL_daily.csv
     ├── AAL_monthly.csv
     └── AAL_forecast.csv
